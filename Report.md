@@ -13,7 +13,7 @@ The specific actor-critc learning algorithm used in this project is the Deep Det
 
 ```
 The architectures used by the actor and critic network are as follows:
-```
+
 # ACTOR NETWORK
 Batch Norm Layer
 Fully Connected Layer(input_size=33, output_size=256)
