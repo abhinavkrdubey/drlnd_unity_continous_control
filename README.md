@@ -1,6 +1,6 @@
 # Reinforcement Learning Project: Continuous Control
 
-[](images/trained.gif) 
+![](images/trained.gif) 
 
 ## Introduction
 
