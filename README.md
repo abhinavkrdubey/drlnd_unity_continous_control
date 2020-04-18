@@ -1,6 +1,6 @@
 # Reinforcement Learning Project: Continuous Control
 
-[Reacher demo](images/trained.gif) 
+[](images/trained.gif) 
 
 ## Introduction
 
