@@ -10,11 +10,9 @@ Policy based methods have low bias, however tend to suffer from a a variance pro
 
 The specific actor-critc learning algorithm used in this project is the Deep Deterministic Policy Gradient (DDPG) algorithm introduced by [Lillicrap et al (2015)](https://arxiv.org/abs/1509.02971). The implementation is based on the code in [ddpg-bipedal](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal) code created by Udacity, but modified slightly to handle multiple simultaneous agents in the same environment.
 
+
 ```
-
 The architectures used by the actor and critic network are as follows:
-
-
 ```
 # ACTOR NETWORK
 Batch Norm Layer
