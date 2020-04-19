@@ -34,7 +34,18 @@ Fully Connected Layer(input_size=256, output_size=128)
 Leaky Relu(leakiness=0.01)
 Fully Connected Layer(input_size=128, output_size=1)
 ```
+## Hyperparameters
 
+```
+BUFFER_SIZE = int(1e6)  # replay buffer size
+BATCH_SIZE = 1024       # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR_ACTOR = 1e-4         # learning rate of the actor
+LR_CRITIC = 3e-4        # learning rate of the critic
+WEIGHT_DECAY = 0.0001   # L2 weight decay
+LEAKINESS = 0.01
+```
 ## Training
 
 Training of the agent was performed on the [`Continous_Control.ipynb`](Continous_Control.ipynb) notebook.
